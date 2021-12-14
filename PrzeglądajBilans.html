@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PrzegladajBilans.css">
+    <title>PrzeglądajBilans</title>
+</head>
+<body>
+    <h1>Przeglądaj Bilans</h1>
+   <section id="Data"> <div>
+    <label for="okres">Proszę wybrać okres rozliczeniowy</label>
+    <select name="okres" id="okres">
+    <option value="bieżącyMiesiac">Bieżący miesiąc</option>
+    <option value="poprzedni">Poprzedni miesiąc</option> 
+    <option value="bieżącyRok">Bieżący rok</option>
+    <option value="niestandardowy">Niestandardowy</option>
+</select>
+</div>
+<div>
+  <label> Podaj datę początkową
+    <input type="date"placeholder="Podaj datę początkową" required pattern=DOMString>
+   </label>   
+</div>
+   <div>
+     <label> Podaj datę końcową
+    <input type="date"placeholder="Podaj datę końcową" required pattern=DOMString>
+   </label>   
+   </div>
+   </section>
+   <section id="Main">
+<h2>Przychody</h2>
+<table>
+    <thead>
+        <tr>
+            <td>Kategoria</td>
+            <td>Suma</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+           <td id="col">Wynagrodzenie</td>
+           <td>0.0</td> 
+        </tr>
+        <tr>
+           <td id="col">Odsetki bankowe</td> 
+           <td>0.0</td> 
+        </tr>
+         <tr>
+            <td id="col">Sprzedaż na allegro</td> 
+            <td>0.0</td> 
+        </tr>
+        <tr>
+           <td id="col">Inne</td>  
+           <td>0.0</td> 
+        </tr>
+        
+    </tbody>
+</table>
+   </section>
+<section id="Main">
+<h2>Wydatki</h2>
+<table>
+    <thead>
+        <tr>
+            <td rowspan="2">Kategoria</td>
+            <td colspan="4">Sposób płatności</td>
+            <td rowspan="2">Suma</td>
+        </tr>
+        <tr>
+            <td id="col">Gotówka</td>
+            <td id="col">Karta debetowa</td>
+            <td id="col">Karta kredytowa</td>
+            <td id="col">Inne</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+           <td id="col">Jedzenie</td>
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+        </tr>
+        <tr>
+           <td id="col">Mieszkanie</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+        </tr>
+         <tr>
+            <td id="col">Transport</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+        </tr>
+        <tr>
+           <td id="col">Telekomunikacja</td>  
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+        </tr>
+        <tr>
+            <td id="col">Opieka zdrowotna</td>
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+         </tr>
+         <tr>
+            <td id="col">Ubranie</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+         </tr>
+          <tr>
+             <td id="col">Higiena</td> 
+             <td>0.0</td>
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td>  
+         </tr>
+         <tr>
+            <td id="col">Dzieci</td>  
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+         </tr>
+         <tr>
+            <td id="col">Rozrywka</td>  
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+         </tr>
+         <tr>
+             <td id="col">Wycieczka</td>
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+          </tr>
+          <tr>
+             <td id="col">Szkolenia</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+          </tr>
+          <tr>
+            <td id="col">Książki</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+         </tr>
+         <tr>
+            <td id="col">Oszczędności</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+         </tr>
+           <tr>
+              <td id="col">Fundusz emerytalny</td> 
+              <td>0.0</td> 
+              <td>0.0</td> 
+              <td>0.0</td> 
+              <td>0.0</td> 
+              <td>0.0</td> 
+          </tr>
+          <tr>
+             <td id="col">Spłata długów</td>  
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+             <td>0.0</td> 
+          </tr>
+          <tr>
+            <td id="col">Darowizna</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+            <td>0.0</td> 
+        </tr>
+        <tr>
+           <td id="col">Inne wydatki</td>  
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+           <td>0.0</td> 
+        </tr>
+    </tbody>
+</table>
+</section>
+<section id="Main">
+<div>
+    <h2>Bilans</h2>
+    <h3>Kwota</h3>
+    <h4>Uważaj, wpadasz w długi!</h4>
+    <h4>Gratulacje. Świetnie zarządzasz finansami!</h4>
+</div>
+</section>
+</body>
+</html>

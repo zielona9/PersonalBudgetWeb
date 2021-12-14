@@ -1,0 +1,85 @@
+body{
+  
+    /*background-image:url(https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    */
+    /*background-image:url(https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=404&q=80);
+   
+    background-image:url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2029&q=80);
+    */
+    background-color: #d8f3dc;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+}
+
+h1{
+    height: 4em;
+    width: 69%;
+    color: #081c15;
+    border: 1em #40916c solid;
+    background-color: #95d5b2;
+    /* text-align: center; */
+    margin-inline: 1em;
+    margin-top: 14%;
+    margin-bottom: 11%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    display: inline-flex;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-inline: 13%;
+    border-radius: 4%;
+}
+
+
+
+
+div{
+    color: #081c15;
+    border: 1px #40916c solid;
+    width: 100px;
+    background-color: #95d5b2;
+    text-align: center;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+div:hover{
+    background-color: #1b4332;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    cursor: pointer;
+    transform: translatey(15px);
+    color: #d8f3dc;
+    box-shadow: 0 0.5em 0.5em -0.4em #40916c;
+}
+#circle{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#circle div{
+
+   margin-top: 1ex;
+  padding: 2em;
+  border-width: 1em;
+  border-radius: 50%;
+  
+}

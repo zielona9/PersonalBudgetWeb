@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DodajPrzychod.css">
+    <title>Dodaj przychód</title>
+
+</head>
+<body>
+    <h1>Dodaj przychód</h1>
+    <section id="wnetrze">
+    <p>
+        <label for="kwota">Kwota przychodu: </label>
+       <input type="number" id="kwota" name="kwota" placeholder="Kwota" required>
+   </p>
+   <p>
+    <label for="Data">Data: </label>
+   <input type="date" id="data" name="data" placeholder="rrrr-mm-dd" required>
+    </p>
+    <section id="Kategoria">
+    <p>
+
+      Kategoria:
+    </p>
+    <p>
+        <input type="radio" name="Wynagrodzenie" id= "Wynagrodzenie" value="Wynagrodzenie">
+        <label for="Wynagrodzenie">Wynagrodzenie:</label>
+     </p>
+    <p> 
+        <input type="radio" value="Odsetki" name="Odsetki" id="Odsetki">
+        <label for="Odsetki">Odsetki bankowe</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Allegro" id="Allegro" value="Allegro">
+        <label for="Allegro">Sprzedaż na allegro</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Inne" id="Inne" value="Inne">
+       <label for="Inne">Inne: </label>
+       
+    </p>
+    <p>
+        <label for="komentarz">Komentarz (opcjonalnie):</label>
+        <textarea id="komentarz" name="komentarz"placeholder="Komentarz"></textarea>
+    </p>
+</section>
+<section id="przycisk">
+<p>
+    <button >Dodaj</button>
+    <button >Anuluj</button>
+</p>
+</section>
+</section>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DodajWydatek.css">
+    <title>Dodaj wydatek</title>
+</head>
+<body>
+    <h1>Dodaj wydatek</h1>
+    <section id="Main">
+    <p>
+        <label for="kwota">Kwota wydatku: </label>
+       <input type="number" id="kwota" name="kwota" placeholder="Kwota" required>
+   </p>
+   <p>
+    <label for="Data">Data: </label>
+   <input type="date" id="data" name="data" placeholder="rrrr-mm-dd" required>
+    </p>
+</section>
+    <section id="Platnosc">
+   <h2>
+      Sposób płatności: 
+   </h2>
+   <section id="KategoriaPlatnosc">
+   <p>
+    <input type="radio" name="Płatność" id= "Gotówka" value="Gotówka">
+    <label for="Gotówka">Gotówka</label>
+ </p>
+ <p>
+    <input type="radio" name="Płatność" id= "debet" value="debet">
+    <label for="debet">Karta debetowa</label>
+ </p>
+ <p>
+    <input type="radio" name="Płatność" id= "kredyt" value="kredyt">
+    <label for="kredyt">Karta kredytowa</label>
+ </p>
+ <p>
+    <input type="radio" name="Płatność" id="Inne" value="Inne">
+   <label for="Inne">Inny</label>
+   </section>
+</p>
+<section id="komplatnosc">
+    <p>
+    <label for="komentarzplatnosc">Komentarz (opcjonalnie):</label>
+    <textarea id="komentarzplatnosc" name="komentarzplatnosc"placeholder="Komentarz"></textarea>
+</p>
+</section>
+</section>
+<section id="Kategoria">
+    <h2>
+
+      Kategoria:
+    </h2>
+    <section id="OpcKategoria">
+    <p>
+        <input type="radio" name="Kategoria" id= "Jedzenie" value="Jedzenie">
+        <label for="Jedzenie">Jedzenie</label>
+     </p>
+    <p> 
+        <input type="radio" value="Mieszkanie" name="Kategoria" id="Mieszkanie">
+        <label for="Mieszkanie">Mieszkanie</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria" id="Transport" value="Transport">
+        <label for="Transport">Transport</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Telekomunikacja" value="Telekomunikacja">
+       <label for="Telekomunikacja">Telekomunikacja </label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Opieka" value="Opieka">
+       <label for="Opieka">Opieka zdrowotna </label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Ubranie" value="Ubranie">
+       <label for="Ubranie">Ubranie </label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Higiena" value="Higiena">
+       <label for="Higiena">Higiena </label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Dzieci" value="Dzieci">
+       <label for="Dzieci">Dzieci</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Rozrywka" value="Rozrywka">
+       <label for="Rozrywka">Rozrywka</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Wycieczka" value="Wycieczka">
+       <label for="Wycieczka">Wycieczka</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Szkolenia" value="Szkolenia">
+       <label for="Szkolenia">Szkolenia</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria" id="Książki" value="Książki">
+       <label for="Książki">Książki</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria" id="Oszczędności" value="Oszczędności">
+       <label for="Oszczędności">Oszczędności</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria" id="Emerytura" value="Emerytura">
+       <label for="Emerytura">Emerytura</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Długi" value="Długi">
+       <label for="Długi">Spłata długów</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Darowizna" value="Darowizna">
+       <label for="Darowizna">Darowizna</label>
+       
+    </p>
+    <p>
+        <input type="radio" name="Kategoria:" id="Inne" value="Inne">
+       <label for="Inne">Inne wydatki</label>
+       
+    </p></section>
+    <section id="komKategoria">
+    <p>
+        <label for="komentarz">Komentarz (opcjonalnie):</label>
+        <textarea id="komentarz" name="komentarz"placeholder="Komentarz"></textarea>
+    </p>
+
+</section>
+</section>
+<section id="przycisk">
+<p>
+    <button>Dodaj</button>
+    <button>Anuluj</button>
+</p>
+</section>
+</body>
+</html>

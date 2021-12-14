@@ -1,0 +1,107 @@
+body{
+  
+    background-color: #d8f3dc;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+}
+
+h1{
+    height: 4em;
+    width: 69%;
+    color: #081c15;
+    border: 1em #40916c solid;
+    background-color: #95d5b2;
+    /* text-align: center; */
+    margin-inline: 1em;
+    margin-top: 14%;
+    margin-bottom: 11%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    display: inline-flex;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-inline: 13%;
+    border-radius: 4%;
+}
+#Main{
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+    color: #081c15;
+    border: 1em #40916c solid;
+    background-color: #95d5b2;
+    padding-inline: 1em;
+    font-size: large;
+    display: inline-flex;
+    
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: column;
+    align-content: stretch;
+}
+#Data{
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+    color: #081c15;
+    border: 1em #40916c solid;
+    background-color: #95d5b2;
+    padding-inline: 1em;
+    font-size: large;
+    display: inline-flex;
+    
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row;
+    align-content: stretch;
+}
+
+table{
+    display: table-cell;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 1em;   
+}
+
+td {
+    border: 1px solid #081c15;
+    display: table-cell;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    
+}
+
+tbody tr:nth-of-type(even)
+{   
+    background-color: #d8f3dc;
+}
+tbody tr:nth-of-type(odd)
+{
+    background-color: #95d5b2; 
+    
+}
+ #col
+{
+    background-color: #40916c;
+    color: #d8f3dc;
+}
+thead,
+tfoot {
+    background-color: #2d6a4f;
+    color: #d8f3dc;
+}
+h2{
+    padding: none;
+}
