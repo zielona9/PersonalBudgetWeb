@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-position: bottom;
     margin: 0 auto;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 80%;
@@ -48,34 +48,10 @@ h1{
     text-align: center;
     align-content: center;
     border-radius: 4%;
+    margin-inline: 31%;
 }
-#Zarejestruj{
- 
-  color: #081c15;
-  border: 1em #40916c solid;
-  background-color: #95d5b2;
-  padding-inline: 1em;
-  font-size: large;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  align-content: center;
-  border-radius: 4%;
-}
-#All{
- 
-  width: 88%;
-  flex-direction: row;
-  align-items: stretch;
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: space-evenly;
-  margin-inline: 7%;
-}
+
+
 button{
     background: #40916c;
   color:#d8f3dc;

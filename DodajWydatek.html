@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="DodajWydatek.css">
     <title>Dodaj wydatek</title>
 </head>
@@ -15,8 +18,8 @@
        <input type="number" id="kwota" name="kwota" placeholder="Kwota" required>
    </p>
    <p>
-    <label for="Data">Data: </label>
-   <input type="date" id="data" name="data" placeholder="rrrr-mm-dd" required>
+    <label for="data">Data: </label>
+   <input type="date" id="data" name="data" required>
     </p>
 </section>
     <section id="Platnosc">
@@ -39,12 +42,13 @@
  <p>
     <input type="radio" name="Płatność" id="Inne" value="Inne">
    <label for="Inne">Inny</label>
-   </section>
+  
 </p>
+</section>
 <section id="komplatnosc">
     <p>
     <label for="komentarzplatnosc">Komentarz (opcjonalnie):</label>
-    <textarea id="komentarzplatnosc" name="komentarzplatnosc"placeholder="Komentarz"></textarea>
+    <textarea id="komentarzplatnosc" name="komentarzplatnosc" placeholder="Komentarz"></textarea>
 </p>
 </section>
 </section>
@@ -69,42 +73,42 @@
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Telekomunikacja" value="Telekomunikacja">
+        <input type="radio" name="Kategoria" id="Telekomunikacja" value="Telekomunikacja">
        <label for="Telekomunikacja">Telekomunikacja </label>
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Opieka" value="Opieka">
+        <input type="radio" name="Kategoria" id="Opieka" value="Opieka">
        <label for="Opieka">Opieka zdrowotna </label>
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Ubranie" value="Ubranie">
+        <input type="radio" name="Kategoria" id="Ubranie" value="Ubranie">
        <label for="Ubranie">Ubranie </label>
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Higiena" value="Higiena">
+        <input type="radio" name="Kategoria" id="Higiena" value="Higiena">
        <label for="Higiena">Higiena </label>
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Dzieci" value="Dzieci">
+        <input type="radio" name="Kategoria" id="Dzieci" value="Dzieci">
        <label for="Dzieci">Dzieci</label>
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Rozrywka" value="Rozrywka">
+        <input type="radio" name="Kategoria" id="Rozrywka" value="Rozrywka">
        <label for="Rozrywka">Rozrywka</label>
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Wycieczka" value="Wycieczka">
+        <input type="radio" name="Kategoria" id="Wycieczka" value="Wycieczka">
        <label for="Wycieczka">Wycieczka</label>
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Szkolenia" value="Szkolenia">
+        <input type="radio" name="Kategoria" id="Szkolenia" value="Szkolenia">
        <label for="Szkolenia">Szkolenia</label>
        
     </p>
@@ -124,33 +128,34 @@
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Długi" value="Długi">
+        <input type="radio" name="Kategoria" id="Długi" value="Długi">
        <label for="Długi">Spłata długów</label>
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Darowizna" value="Darowizna">
+        <input type="radio" name="Kategoria" id="Darowizna" value="Darowizna">
        <label for="Darowizna">Darowizna</label>
        
     </p>
     <p>
-        <input type="radio" name="Kategoria:" id="Inne" value="Inne">
-       <label for="Inne">Inne wydatki</label>
+        <input type="radio" name="Kategoria" id="Inne2" value="Inne2">
+       <label for="Inne2">Inne wydatki</label>
        
     </p></section>
     <section id="komKategoria">
     <p>
         <label for="komentarz">Komentarz (opcjonalnie):</label>
-        <textarea id="komentarz" name="komentarz"placeholder="Komentarz"></textarea>
+        <textarea id="komentarz" name="komentarz" placeholder="Komentarz"></textarea>
     </p>
 
 </section>
-</section>
+
 <section id="przycisk">
 <p>
     <button>Dodaj</button>
     <button>Anuluj</button>
 </p>
+</section>
 </section>
 </body>
 </html>

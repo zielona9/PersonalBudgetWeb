@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="DodajPrzychod.css">
     <title>Dodaj przychód</title>
 
@@ -16,8 +19,8 @@
        <input type="number" id="kwota" name="kwota" placeholder="Kwota" required>
    </p>
    <p>
-    <label for="Data">Data: </label>
-   <input type="date" id="data" name="data" placeholder="rrrr-mm-dd" required>
+    <label for="data">Data: </label>
+   <input type="date" id="data" name="data"  required>
     </p>
     <section id="Kategoria">
     <p>
@@ -25,27 +28,27 @@
       Kategoria:
     </p>
     <p>
-        <input type="radio" name="Wynagrodzenie" id= "Wynagrodzenie" value="Wynagrodzenie">
+        <input type="radio" name="Kategoria" id= "Wynagrodzenie" value="Wynagrodzenie">
         <label for="Wynagrodzenie">Wynagrodzenie:</label>
      </p>
     <p> 
-        <input type="radio" value="Odsetki" name="Odsetki" id="Odsetki">
+        <input type="radio" value="Odsetki" name="Kategoria" id="Odsetki">
         <label for="Odsetki">Odsetki bankowe</label>
        
     </p>
     <p>
-        <input type="radio" name="Allegro" id="Allegro" value="Allegro">
+        <input type="radio" name="Kategoria" id="Allegro" value="Allegro">
         <label for="Allegro">Sprzedaż na allegro</label>
        
     </p>
     <p>
-        <input type="radio" name="Inne" id="Inne" value="Inne">
+        <input type="radio" name="Kategoria" id="Inne" value="Inne">
        <label for="Inne">Inne: </label>
        
     </p>
     <p>
         <label for="komentarz">Komentarz (opcjonalnie):</label>
-        <textarea id="komentarz" name="komentarz"placeholder="Komentarz"></textarea>
+        <textarea id="komentarz" name="komentarz" placeholder="Komentarz"></textarea>
     </p>
 </section>
 <section id="przycisk">

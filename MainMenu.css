@@ -15,6 +15,8 @@ body{
     justify-content: center;
     height: 80%;
     width: 80%;
+    font-family: 'Courgette', cursive;
+
 }
 
 h1{
@@ -25,8 +27,8 @@ h1{
     background-color: #95d5b2;
     /* text-align: center; */
     margin-inline: 1em;
-    margin-top: 14%;
-    margin-bottom: 11%;
+    margin-top: 6%;
+    margin-bottom: 7%;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -71,7 +73,7 @@ div:hover{
     text-align: center;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     align-content: center;
     flex-wrap: wrap;
 }

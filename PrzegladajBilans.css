@@ -9,6 +9,8 @@ body{
     justify-content: center;
     height: 80%;
     width: 80%;
+    font-family: 'Courgette', cursive;
+
 }
 
 h1{
@@ -19,8 +21,8 @@ h1{
     background-color: #95d5b2;
     /* text-align: center; */
     margin-inline: 1em;
-    margin-top: 14%;
-    margin-bottom: 11%;
+    margin-top: 6%;
+    margin-bottom: 7%;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -101,7 +103,4 @@ thead,
 tfoot {
     background-color: #2d6a4f;
     color: #d8f3dc;
-}
-h2{
-    padding: none;
 }
